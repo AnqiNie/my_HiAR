@@ -480,7 +480,7 @@
         <section>
             <div class="page-shell">
                 <figure class="figure-card">
-                    <img src="static/images/teaser.png" alt="Motivation figure for HiAR showing long-video drift reduction with hierarchical denoising">
+                    <img src="static/images/teaser.jpg" alt="Motivation figure for HiAR showing long-video drift reduction with hierarchical denoising">
                 </figure>
             </div>
         </section>
@@ -524,7 +524,7 @@
                         The key design choice in HiAR is to condition each block on earlier blocks at the <strong>same output noise level</strong> of the current denoising step, rather than on fully denoised context. This changes autoregressive generation from a block-first schedule to a hierarchical step-first schedule, reducing bias accumulation while preserving temporal causality.
                     </p>
                     <figure class="figure-card" style="margin-top: 22px;">
-                        <img src="static/images/overview.png" alt="Overview figure of HiAR hierarchical denoising and training pipeline">
+                        <img src="static/images/overview.jpg" alt="Overview figure of HiAR hierarchical denoising and training pipeline">
                         <figcaption class="figure-caption">
                             Overview of HiAR. Standard block-first autoregressive denoising amplifies drift, while hierarchical denoising uses matched-noise context and forward-KL regularisation to improve long-horizon generation.
                         </figcaption>
@@ -540,7 +540,7 @@
                     <p>Qualitative comparison on 20-second generation.</p>
                 </div>
                 <figure class="result-figure">
-                    <img src="static/images/quality.png" alt="Qualitative comparison of HiAR against other distilled autoregressive video models at 20 seconds">
+                    <img src="static/images/quality.jpg" alt="Qualitative comparison of HiAR against other distilled autoregressive video models at 20 seconds">
                     <figcaption>
                         HiAR maintains colour fidelity, structural coherence, and visual stability over long rollouts, while baseline autoregressive methods accumulate visible drift.
                     </figcaption>
